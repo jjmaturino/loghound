@@ -9,7 +9,7 @@ description = "Pretty Print Log Visualizer"
 readme = "README.md"
 requires-python = ">=3.10"
 license = {text = "Apache-2.0"}
-authors = [{name = "Solveit", email = "nobody@fast.ai"}]
+authors = [{name = "Juan Maturino", email = "nobody@fast.ai"}]
 keywords = ['nbdev']
 classifiers = [
     "Programming Language :: Python :: 3",
@@ -20,6 +20,9 @@ dependencies = [
 	"rich", 
 	"pyyaml"
 ]
+
+[project.scripts]
+loghound = "loghound.core:main"
 
 [project.urls]
 Repository = "https://github.com/jjmaturino/loghound"

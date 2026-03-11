@@ -2,8 +2,8 @@ project:
   output-dir: _docs
 
 website:
-  title: "bloodhound"
-  site-url: "https://jjmaturino.github.io/bloodhound"
+  title: "loghound"
+  site-url: "https://jjmaturino.github.io/loghound"
   description: "Pretty Print Log Visualizer"
   repo-branch: main
-  repo-url: "https://github.com/jjmaturino/bloodhound"
+  repo-url: "https://github.com/jjmaturino/loghound"
