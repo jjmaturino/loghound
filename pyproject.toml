@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bloodhound"
+dynamic = ["version"]
+description = "Pretty Print Log Visualizer"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+authors = [{name = "Solveit", email = "nobody@fast.ai"}]
+keywords = ['nbdev']
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+]
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/jjmaturino/bloodhound"
+Documentation = "https://jjmaturino.github.io/bloodhound/"
+
+[project.entry-points.nbdev]
+bloodhound = "bloodhound._modidx:d"
+
+[tool.setuptools.dynamic]
+version = {attr = "bloodhound.__version__"}
+
+[tool.setuptools.packages.find]
+include = ["bloodhound"]
+
+[tool.nbdev]
