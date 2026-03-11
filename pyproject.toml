@@ -15,7 +15,11 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3 :: Only",
 ]
-dependencies = []
+dependencies = [
+	"fastcore>=1.12.2",
+	"rich", 
+	"pyyaml"
+]
 
 [project.urls]
 Repository = "https://github.com/jjmaturino/bloodhound"
